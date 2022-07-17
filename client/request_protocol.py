@@ -37,3 +37,4 @@ class RequestProtocol(object):
     def request_send_difficulty(difficulty):
         """0008"""
         return DELIMITER.join([REQUEST_SEND_DIFFICULTY, difficulty])
+    
